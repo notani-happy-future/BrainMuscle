@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="タイトル領域"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=";Level:"></TextView>
+            <TextView
+                android:id="@+id/tv_level_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=";tries/games:"></TextView>
+            <TextView
+                android:id="@+id/tv_tries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tries_of_one_game"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="; hit_ratio:"></TextView>
+            <TextView
+                android:id="@+id/tv_hit_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":0.0%"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lo_display_block_domain"
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_selected_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="現在選択中" />
+            <TextView
+                android:id="@+id/tv_selected"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="26sp"
+                android:background="@drawable/text_view_style"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="" />
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="26sp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="" />
+            <TextView
+                android:id="@+id/tv_ng"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="26sp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="操作領域"></TextView>
+
+            <TextView
+                android:id="@+id/tv_selectable0"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:visibility="visible"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/tv_selectable1"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable2"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable3"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable4"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable5"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable6"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable7"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable8"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/tv_selectable9"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ボタン領域"></TextView>
+
+            <Button
+                android:id="@+id/bt_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="GO" />
+
+            <Button
+                android:id="@+id/bt_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CHECK" />
+
+            <Button
+                android:id="@+id/bt_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="REVIEW" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_contents_type"
+                android:entries="@array/sp_contents_type"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/sp_block_count"
+                android:entries="@array/sp_block_count"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="枠" />
+
+            <Spinner
+                android:id="@+id/sp_contents_count"
+                android:entries="@array/sp_contents_count"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="種類" />
+
+            <Spinner
+                android:id="@+id/sp_display_interval"
+                android:entries="@array/sp_display_interval"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mm sec" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

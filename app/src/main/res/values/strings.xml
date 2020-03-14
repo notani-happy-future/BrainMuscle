@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">BrainMuscle</string>
+    <string name="ok">OK</string>
+    <string name="ng">NG</string>
+
+    <string name="back_white">#FFFFFF</string>
+    <string name="back_color">#b1d7e4</string>
+
+    <string name="ok_font">#b1d7e4</string>
+    <string name="ng_font">#CCCCCC</string>
+
+    <string name="ok_color_back">#00904A</string>
+    <string name="ok_color_font">#edc600</string>
+    <string name="ng_color_back">#CCCCCC</string>
+    <string name="ng_color_font">#b80117</string>
+
+    <string name="type_of_game_number">1</string>
+    <string name="type_of_game_alphabet">2</string>
+    <string name="type_of_game_color">3</string>
+    <string name="type_of_game_symbol">4</string>
+
+    <string name="tries_of_one_game">5</string>
+
+    <string-array name="sp_contents_type">
+        <item>数字</item>
+        <item>アルファベット</item>
+        <item>色</item>
+        <item>記号</item>
+    </string-array>
+    <string-array name="sp_block_count">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="sp_contents_count">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="sp_display_interval">
+        <item>2000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>300</item>
+        <item>100</item>
+    </string-array>
+
+
+    <string-array name="ary_contents_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="ary_contents_alphabet">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+    </string-array>
+
+    <string-array name="ary_contents_symbol">
+        <item>◎</item>
+        <item>☆</item>
+        <item>＋</item>
+        <item>○</item>
+        <item>△</item>
+        <item>□</item>
+        <item>×</item>
+        <item>▽</item>
+        <item>-</item>
+        <item>*</item>
+    </string-array>
+
+    <string-array name="ary_contents_color">
+        <item>#b80117</item>
+        <item>#222584</item>
+        <item>#00904A</item>
+        <item>#edc600</item>
+        <item>#261e1c</item>
+        <item>#6d1782</item>
+        <item>#a0c238</item>
+        <item>#ffffff</item>
+        <item>#0168b3</item>
+        <item>#c30068</item>
+    </string-array>
+
+</resources>
